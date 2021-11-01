@@ -7,10 +7,21 @@ body * {
     box-sizing: border-box;
 }
 
+.yellow {
+    color: #E3B873;
+}
+.white {
+     color:#FFF;
+}
+.underline {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1250px;
     margin: 0 auto;
 }
+
 
 .button {
     background: #E3B873;
@@ -110,25 +121,7 @@ body * {
     z-index: 1;
 }
 
-.title-h1 {
-    margin: 0;
-    font-family: Yeseva One;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 53px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-style: normal;
-}
 
-.title-p {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 36px;
-    color: #FFFFFF;
-}
 
 /* вторая часть страницы */
 
@@ -140,44 +133,57 @@ body * {
     position: relative;
 }
 
-.title-h1-1 {
-    position: relative;
+.title {
     font-family: Yeseva One;
     font-style: normal;
     font-weight: bold;
+    text-transform: uppercase;
+    color: #E3B873;
+
+}
+.h1 {
     font-size: 27px;
     line-height: 37px;
     letter-spacing: -0.07em;
-    text-transform: uppercase;
-    color: #E3B873;
-    position: relative;
-    margin: 0;
-    margin-left: 50px;
+}
+.h2 {
+   font-size: 14px;
+   line-height: 19px;
 }
 
-.title-p-1 {
-    position: relative;
-    font-family: Nunito Sans;
+.container1 {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start;
+}
+
+.container-right {
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 27px;
-    color: #FFFFFF;
+    line-height: 14px;
     margin-left: 50px;
 }
 
-.title-h2 {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
+.main-navigation {
+    list-style: none;
+    display: flex;
+    font-style: bold;
     text-transform: uppercase;
-    color: #E3B873;
-    text-decoration: underline;
-    text-decoration: none;
-    position;
-    margin-left: 626px;
-    margin-bottom: 400px;
 }
 
+.main-navigation__item {
+    margin-right: 42px;
+}
+
+.main-navigation__item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main-navigation__item a:hover {    
+    color: #E3B873;
+}
