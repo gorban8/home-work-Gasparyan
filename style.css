@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    font-family: Nunito Sans;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.calculate {
+    background-color: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 19px 41px;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.submit {
+    border: 1px solid #FFFFFF;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 2px;
+    outline: 0;
+    padding: 19px 22px;
+    font-family: Nunito Sans;
+    font-style: italic;
+    background-color: Transparent;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.logo {
+    color: #E3B873;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.images {
+    background-image: url('image/main.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.images-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.images-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title-h1 {
+    margin: 0;
+    font-family: Yeseva One;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.title-p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/* вторая часть страницы */
+
+.completed  {
+    background-color:#131313;
+    background-size: cover;
+    height: 1074px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.title-h1-1 {
+    position: relative;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    position: relative;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.title-p-1 {
+    position: relative;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.title-h2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+    text-decoration: underline;
+    text-decoration: none;
+    position;
+    margin-left: 626px;
+    margin-bottom: 400px;
+}
+
