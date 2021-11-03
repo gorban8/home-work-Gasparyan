@@ -12,6 +12,7 @@ body * {
 }
 .white {
      color:#FFF;
+     line-height: 21.28px;
 }
 .underline {
     text-decoration: underline;
@@ -151,6 +152,41 @@ body * {
    line-height: 19px;
 }
 
+/*
+.center {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #E3B873;
+    position: relative;
+    margin-left: 109px;
+}
+
+span.letter {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 14px;
+    margin-left: 315px;
+    margin-top: 30px;
+    color: white;
+    position: relative;
+}
+
+.position {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 14px;
+    margin-left: 315px;
+    margin-top: 30px;
+    color: white;
+}
+*/
+
 .container1 {
     max-width: 1250px;
     margin: 0 auto;
@@ -164,7 +200,7 @@ body * {
     font-style: normal;
     font-weight: normal;
     line-height: 14px;
-    margin-left: 50px;
+    margin-left: auto;
 }
 
 .main-navigation {
@@ -175,15 +211,18 @@ body * {
 }
 
 .main-navigation__item {
-    margin-right: 42px;
+    margin-right: 20px;
 }
 
 .main-navigation__item a {
     text-decoration: none;
-    color: white;
     font-weight: bold;
 }
 
 .main-navigation__item a:hover {    
     color: #E3B873;
+}
+
+.image {
+    margin: 0;
 }
