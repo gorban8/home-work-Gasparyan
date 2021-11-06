@@ -263,8 +263,6 @@ body * {
     justify-content:space-evenly;
     flex-direction: row;
     width:100%;
-    list-style:none;
-    margin-left:-40px;
 }
 
 .container-right {
@@ -273,13 +271,19 @@ body * {
     font-weight: normal;
     line-height: 14px;
     margin-left: auto;
-    display: flex;
-    flex-wrap: nowrap;
+}
+
+.section-action {
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    width: 50%;
+    list-style: none;
+    margin-left: 450px;
 }
 
 .action {
     list-style: none;
-    font-style: bold;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -291,4 +295,8 @@ body * {
 .action a:hover {    
     color: #E3B873;
     text-decoration: underline;
+}
+
+.image {
+    margin: 0;
 }
