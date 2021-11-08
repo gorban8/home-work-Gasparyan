@@ -192,13 +192,10 @@ body * {
 
 /* вторая часть страницы */
 
-.completed  {
-    background-color:#131313;
-    background-size: cover;
-    height: 1074px;
-    padding-top: 194px;
-    position: relative;
-}
+.completed {
+    background:#131313;
+    display:flex;
+    }
 
 .title {
     font-family: Yeseva One;
@@ -240,7 +237,7 @@ body * {
     line-height: 37px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
@@ -259,28 +256,27 @@ body * {
 }
 
 .container-section {
-    display:flex;
-    justify-content:space-evenly;
-    flex-direction: row;
-    width:100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 .container-right {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 14px;
-    margin-left: auto;
+    margin: 0 auto;
+    line-height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .section-action {
-    display:flex;
-    justify-content:space-evenly;
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    width: 50%;
+    width: 100%;
     list-style: none;
-    margin-left: 450px;
-}
+    }
 
 .action {
     list-style: none;
