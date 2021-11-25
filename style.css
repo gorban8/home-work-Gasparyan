@@ -276,6 +276,7 @@ body * {
     grid-gap: 45px;
     margin: 0;
     line-height: 1.6;
+    margin-right: 35px;
 }
 
 .container-section {
@@ -1141,11 +1142,4 @@ body * {
         padding: 19px 37px;
     }
 
-    .image-contaiimage {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-    }
 }
